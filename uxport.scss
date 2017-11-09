@@ -2,10 +2,10 @@
 
 // Semantic color scheme
 $theme-colors: (
-  primary: #007bff,
-  secondary: #004EA3,
+  primary: #304FFE,
+  secondary: rgba(97, 97, 97,1.0),
   success: #28a745,
-  info: #00fbff,
+  info: #FAFAFA,
   warning: #ffc107,
   danger: #dc3545,
   light: #f8f9fa,
@@ -16,11 +16,11 @@ $theme-colors: (
 //
 // Quickly modify global styling by enabling or disabling optional features.
  
-$enable-rounded:            true !default;
-$enable-shadows:            false;
-$enable-gradients:          false;
+$enable-rounded:            true ;
+$enable-shadows:            true;
+$enable-gradients:          true;
 $enable-transitions:        true !default;
-$enable-hover-media-query:  false !default;
+$enable-hover-media-query:  true !default;
 $enable-grid-classes:       true !default;
 $enable-print-styles:       true !default;
 
@@ -29,7 +29,8 @@ $enable-print-styles:       true !default;
 // Theme settings.
 
 $body-bg: white;
-$body-color: #292b2c;
+$body-color: #212121;
+
 $body-color-inverse: invert($body-color) !default;
 $link-color: #007bff;
 
@@ -57,6 +58,7 @@ $border-radius: 1rem;
 $display-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 $border-radius-lg: $border-radius * 1.2;
 $border-radius-sm: $border-radius * .8;
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
 @import 'bootstrap-4.0.0-beta.1';
 
 
