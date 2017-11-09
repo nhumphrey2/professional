@@ -51,14 +51,26 @@ $display2-size: 5.5 * $font-size-base;
 $display3-size: 4.5 * $font-size-base;
 $display4-size: 3.5 * $font-size-base;
 
-$border-radius: 1rem;
+
 
 
 
 $display-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+
+
+
+
+
+
+
+
+
+
+
+$border-radius: 1rem;
 $border-radius-lg: $border-radius * 1.2;
 $border-radius-sm: $border-radius * .8;
-$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
 @import 'bootstrap-4.0.0-beta.1';
 
 
