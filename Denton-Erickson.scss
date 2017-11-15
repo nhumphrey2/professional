@@ -98,7 +98,7 @@ body > * {
     left: 0px;
     top: 0px; 
     pointer-events:none;
-    background: linear-gradient(to top , map-get($theme-colors, 'light') 0%, transparent 100%);
+    background: linear-gradient(to bottom , map-get($theme-colors, 'dark') 4%, transparent 100%);
 
   }
 }
@@ -116,6 +116,6 @@ White
 Olive */
 
 
-#featured{height:90vh!important
+#featured{height:70vh!important
 
 }
